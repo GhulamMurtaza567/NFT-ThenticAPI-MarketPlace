@@ -13,7 +13,7 @@ const MyNfts = () => {
   useEffect(() => {
     try {
       debugger
-      const response = axios.get(`https://thentic.tech/api/nfts?key=${process.REACT_APP_KEY}&chain_id=${process.envREACT_APP_CHAIN_ID}`,);
+      const response = axios.get(`https://thentic.tech/api/nfts?key=${process.env.REACT_APP_KEY}&chain_id=${process.env.REACT_APP_CHAIN_ID}`,);
       console.log(response);
     }
     catch (error) {
