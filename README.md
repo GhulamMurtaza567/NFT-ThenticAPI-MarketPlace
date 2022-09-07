@@ -8,4 +8,7 @@ REACT_APP_MINT_NFT_WEBHOOK,
 REACT_APP_ADD_CONTRACT_WEBHOOK, 
 REACT_APP_GET_LATEST_CONTRACT_ADDRESS, 
 
-### `npm start`
+In the project directory, you can run:
+
+## npm Install
+## npm start
