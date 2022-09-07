@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Box, Card, CardContent, CardMedia, CardActionArea, Grid, Typography } from '@mui/material/'
-import axios from 'axios';
 
 import TransferModel from '../../components/TransferModel';
 
@@ -9,17 +8,6 @@ const MyNfts = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
-  useEffect(() => {
-    try {
-      debugger
-      const response = axios.get(`https://thentic.tech/api/nfts?key=${process.env.REACT_APP_KEY}&chain_id=${process.env.REACT_APP_CHAIN_ID}`,);
-      console.log(response);
-    }
-    catch (error) {
-      console.log(error);
-    }
-  }, []);
 
   return (
     <>
