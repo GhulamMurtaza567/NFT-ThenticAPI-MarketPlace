@@ -9,5 +9,5 @@ REACT_APP_ADD_CONTRACT_WEBHOOK,
 REACT_APP_GET_LATEST_CONTRACT_ADDRESS, 
 
 ## Now In the project directory, you can run:
-npm Install
-npm start
+#npm Install
+#npm start
